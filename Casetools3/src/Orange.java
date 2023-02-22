@@ -5,6 +5,11 @@ public class Orange {
 	{
 	this.color=color;
 	}
+	
+	String getColor()
+	{
+	return color;
+	}
 
 	public static void main(String[] args) {
 		Orange greenApple = new Orange("green");
